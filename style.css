@@ -62,7 +62,7 @@
       .aside1 {
         background-color: #FFEF82;
       }
-
+  
 
   .footer {
     background-color: black;
@@ -71,4 +71,12 @@
       background-color: #EFD345;
     }
 
+
+    @media all and (max-width: 768px) {
+      .section {
+        background-color: #FFE400;
+        flex-direction: column;
+        
+      } 
+    }
 
