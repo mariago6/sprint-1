@@ -80,3 +80,26 @@
       } 
     }
 
+    @media all and (max-width: 600px) {
+      .head {
+        flex-direction: column;
+      }
+        .element2 {
+          flex: 1 1 auto;
+        }
+      
+      .articles {
+        flex: 1 1 auto;
+        background-color: #2155CD;
+      }
+        .article {
+          flex: 1 1 100%;
+        }
+      .aside {
+        background-color: #F55353;
+      }
+        .aside1 {
+          background-color: #FDAF75;
+        }
+    }
+
