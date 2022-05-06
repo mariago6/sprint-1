@@ -38,19 +38,26 @@
 
   .section {
     background-color: black;
+    display: flex;
   }
     .articles {
-      background-color: #A85CF9;
+      background-color: #764AF1;
+      display: flex;
+      flex: 2 1 auto;
+      flex-flow: row wrap;
     }
       .article {
         background-color: #4B7BE5;
+        flex: 1 1 35%;
       }
       .article2 {
         background-color: #6FDFDF;
+        flex: 1 1 100%;
       }
 
     .aside {
       background-color: #EB5353;
+      flex: 1 1 auto;
     }
       .aside1 {
         background-color: #FFEF82;
