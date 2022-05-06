@@ -1,0 +1,60 @@
+*{
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.padre{
+ 
+}
+  .header {
+    background-color: black;
+    
+  }
+    .head {
+      background-color: #112B3C;
+    }
+      .element1 {
+        background-color: #FF4949;
+      }
+      .element2 {
+        background-color: #FF4949;
+      }
+
+    .subhead {
+      background-color: #FF8D29;
+    }
+      .element3 {
+        background-color: #FFCD38;
+      }
+
+
+  .section {
+    background-color: black;
+  }
+    .articles {
+      background-color: #A85CF9;
+    }
+      .article {
+        background-color: #4B7BE5;
+      }
+      .article2 {
+        background-color: #6FDFDF;
+      }
+
+    .aside {
+      background-color: #EB5353;
+    }
+      .aside1 {
+        background-color: #FFEF82;
+      }
+
+
+  .footer {
+    background-color: black;
+  }
+    .foot {
+      background-color: #EFD345;
+    }
+
+
