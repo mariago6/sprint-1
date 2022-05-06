@@ -5,20 +5,27 @@
 }
 
 .padre{
- 
+  display: flex;
+  flex-flow: column nowrap;
 }
   .header {
     background-color: black;
-    
+    display: flex;
+    flex-flow: column nowrap;
   }
     .head {
       background-color: #112B3C;
+      display: flex;
+      flex-flow: row nowrap;
+
     }
       .element1 {
         background-color: #FF4949;
+        flex: 1 1 auto;
       }
       .element2 {
         background-color: #FF4949;
+        flex: 5 1 auto;
       }
 
     .subhead {
